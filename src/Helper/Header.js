@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Link} from "react-router-dom";
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="md" className="bg-body-tertiary sticky-top">
+    <Navbar collapseOnSelect expand="md" className="bg-body-tertiary sticky-top custom-navbar-shadow">
       <Container>
         <Navbar.Brand  as={Link} to="/">RajwardhanOnline</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

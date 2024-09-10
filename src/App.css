@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  /* background-color: #f7fffc;
+   */
+   background-color: #ffffff;
 }
 
 .App-logo {
@@ -45,4 +48,27 @@
 
 .custom-navbar-shadow {
   box-shadow: 0 4px 6px 1px rgba(12, 11, 11, 0.1), 0 2px 4px 1px rgba(0, 0, 0, 0.06);
+}
+
+.custom-player {
+  max-height: 200px !important;
+  max-width: 350px !important;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  
+}
+.parent-container {
+  display: flex;
+  justify-content: center; /* Horizontally centers the .custom-player */
+  align-items: center;    /* Vertically centers the .custom-player */
+  /* height: 100vh;          Ensure parent container has height */
+}
+
+.custom-card {
+  transition: box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }

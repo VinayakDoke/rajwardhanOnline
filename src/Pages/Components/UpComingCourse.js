@@ -21,8 +21,8 @@ function UpComingCourse() {
               <li  className='lifontSize'>GEM L1 TRAINING (AS PER REQUIREMENT)</li>
             </ul>
           </Col> */}
-          <Col xs={12} md={6}>
-            <ul style={{ listStyle: 'none', padding: 0 }}>
+          <Col xs={12} md={6} >
+            <ul style={{ listStyle: 'none' }} >
               <li
                 style={{
                   display: 'flex',

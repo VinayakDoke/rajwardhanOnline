@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../Helper/Header'
-import UpComingCourse from './UpComingCourse'
+import UpComingCourse from './Components/UpComingCourse'
+import VideoSection from './Components/VideoSection'
+import CardSection from './CardSection/CardSection'
 
 function Home () {
   return (
@@ -8,8 +10,8 @@ function Home () {
       <Header />
       <br/>
       <UpComingCourse/>
-      <UpComingCourse/>
-      <UpComingCourse/>
+     <VideoSection/>
+     <CardSection/>
     </>
   )
 }
