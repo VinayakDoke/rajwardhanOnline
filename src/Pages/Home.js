@@ -1,13 +1,16 @@
 import React from 'react'
 import Header from '../Helper/Header'
+import UpComingCourse from './UpComingCourse'
 
-function Home() {
+function Home () {
   return (
     <>
-     <Header/>
-     <div>Home</div>
+      <Header />
+      <br/>
+      <UpComingCourse/>
+      <UpComingCourse/>
+      <UpComingCourse/>
     </>
-   
   )
 }
 
