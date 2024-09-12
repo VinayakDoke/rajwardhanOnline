@@ -2,7 +2,7 @@
   text-align: center;
   /* background-color: #f7fffc;
    */
-   background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .App-logo {
@@ -40,28 +40,28 @@
   }
 }
 
-.lifontSize{
+.lifontSize {
   font: 12px sans-serif;
   font-weight: 550;
   margin-bottom: 5px;
 }
 
 .custom-navbar-shadow {
-  box-shadow: 0 4px 6px 1px rgba(12, 11, 11, 0.1), 0 2px 4px 1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px 1px rgba(12, 11, 11, 0.1),
+    0 2px 4px 1px rgba(0, 0, 0, 0.06);
 }
 
 .custom-player {
-  max-height: 200px !important;
-  max-width: 350px !important;
+  max-height: 280px !important;
+  max-width: 500px !important;
   border-radius: 8px;
   overflow: hidden;
   display: flex;
-  
 }
 .parent-container {
   display: flex;
   justify-content: center; /* Horizontally centers the .custom-player */
-  align-items: center;    /* Vertically centers the .custom-player */
+  align-items: center; /* Vertically centers the .custom-player */
   /* height: 100vh;          Ensure parent container has height */
 }
 
@@ -71,4 +71,52 @@
 
 .custom-card:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 576px) {
+  /* Small screen size */
+  .my-card {
+    width: 20rem;
+    margin: 10px 0px;
+  }
+}
+
+.my-card {
+  /* width: 18rem; */
+  width: 95%;
+}
+.my-card-img {
+  max-height: 280px !important;
+  max-width: 500px !important;
+  background-size: contain;
+}
+.footer-main {
+  background-color: #282c34;
+  /* height: 400px; */
+  width: 100%;
+}
+.footer-card {
+  background-color: #282c34;
+  /* height: 400px;
+  width: 400px; */
+  padding: 20px;
+  color: #ffffff !important;
+  margin: 0px;
+}
+
+/* .map-main {
+ 
+
+  width: 90%; 
+  height: 100%; 
+  margin: 0px;
+  padding: 20px;
+
+} */
+.map-main {
+  width: 100%; /* Make the container take the full width */
+  height: 300px; /* Ensure it takes the full height */
+  margin: 0;
+  padding: 0; /* Remove padding if you want the map to fully fill the container */
+  box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
 }

@@ -21,14 +21,13 @@ function VideoSection () {
             xs={12}
             md={6}
             className='d-flex justify-content-center align-items-center'
-            style={{minHeight:"100px"}}
+            style={{ minHeight: '100px' }}
           >
             <div>
-            <b>Gem Demo</b>
-            <br/>
-            <p>Gem Demo</p>
+              <b>Gem Demo</b>
+              <br />
+              <p>Gem Demo</p>
             </div>
-          
           </Col>
         </Row>
         <Row>
@@ -57,7 +56,7 @@ function VideoSection () {
             xs={12}
             md={6}
             className='d-flex d-md-none justify-content-center align-items-center'
-            style={{minHeight:"100px"}}
+            style={{ minHeight: '100px' }}
           >
             Gem Demo
           </Col>

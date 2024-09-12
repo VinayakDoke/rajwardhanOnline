@@ -5,14 +5,13 @@ import Map from '../Helper/Map'
 import MapBox from '../Helper/MapBox'
 import MyMapContainer from '../Helper/MyMapContainer'
 
-function About() {
-
+function About () {
   return (
     <>
-      <Header/>
+      <Header />
       <div>About</div>
-      <WhatsAppLink/>
-      <MyMapContainer/>
+      <WhatsAppLink />
+      <MyMapContainer />
       {/* <Map/> */}
       {/* <MapBox/> */}
     </>

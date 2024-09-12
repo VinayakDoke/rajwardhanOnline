@@ -2,12 +2,14 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-function UpComingCourse() {
+function UpComingCourse () {
   return (
     <>
       <Container>
         <Row>
-          <Col>UPCOMING GEM PORTAL TRAINING SCHEDULE (ONLINE AND OFFLINE)</Col>
+          <Col>
+            <h3>UPCOMING GEM PORTAL TRAINING SCHEDULE (ONLINE AND OFFLINE)</h3>
+          </Col>
         </Row>
         <br />
         <Row>
@@ -21,8 +23,8 @@ function UpComingCourse() {
               <li  className='lifontSize'>GEM L1 TRAINING (AS PER REQUIREMENT)</li>
             </ul>
           </Col> */}
-          <Col xs={12} md={6} >
-            <ul style={{ listStyle: 'none' }} >
+          <Col xs={12} md={6}>
+            <ul style={{ listStyle: 'none' }}>
               <li
                 style={{
                   display: 'flex',
@@ -44,7 +46,7 @@ function UpComingCourse() {
                 GEM PORTAL TRAINING AT DELHI (22 AUG TO 24 AUG 2024)
               </li>
               <li
-              className='lifontSize'
+                className='lifontSize'
                 style={{
                   display: 'flex',
                   alignItems: 'center',
@@ -64,7 +66,7 @@ function UpComingCourse() {
                 GEM PORTAL TRAINING AT DELHI (22 AUG TO 24 AUG 2024)
               </li>
               <li
-              className='lifontSize'
+                className='lifontSize'
                 style={{
                   display: 'flex',
                   alignItems: 'center',
@@ -81,7 +83,7 @@ function UpComingCourse() {
                     marginRight: '10px'
                   }}
                 ></span>
-                ETENDER (EPROCUREMENT TRAINING)  (30 JULY TO 02 AUG 2024)
+                ETENDER (EPROCUREMENT TRAINING) (30 JULY TO 02 AUG 2024)
               </li>
 
               <li
@@ -102,7 +104,7 @@ function UpComingCourse() {
                     marginRight: '10px'
                   }}
                 ></span>
-               INDIAN ARMY (JAMMU) - AUG 2024
+                INDIAN ARMY (JAMMU) - AUG 2024
               </li>
               <li
                 style={{
