@@ -14,6 +14,7 @@ const Home = () => {
       duration: 2000, // Animation duration in milliseconds
       once: true, // Whether animation should happen only once
     });
+    window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -24,7 +25,7 @@ const Home = () => {
         <UpComingCourse />
       </div>
       <br />
-      <div data-aos="fade-right">
+      <div>
         <VideoSection />
       </div>
       <br />
