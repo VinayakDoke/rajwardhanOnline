@@ -95,13 +95,40 @@
   /* height: 400px; */
   width: 100%;
 }
+
 .footer-card {
   background-color: #282c34;
   /* height: 400px;
   width: 400px; */
   padding: 20px;
-  color: #ffffff !important;
+ 
   margin: 0px;
+}
+.footer-card-text{
+  color: #dad7d7 !important;
+  text-align: left;
+}
+.footer-card-text:hover{
+  color: #ffffff !important;
+  text-align: left;
+}
+
+.footer-card-header{
+  color: #ffffff !important;
+  text-align: center;
+  font-size: 24px;
+}
+.footer-card-text-link{
+  color: #dad7d7 !important;
+  text-align: left !important;
+  text-decoration: none;
+  margin: 0;
+}
+.footer-card-text-link:hover{
+  color: #ffffff !important;
+  text-align: left !important;
+  text-decoration: none;
+  margin: 0;
 }
 
 /* .map-main {
@@ -119,4 +146,32 @@
   margin: 0;
   padding: 0; /* Remove padding if you want the map to fully fill the container */
   box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  gap: 20px;
+  margin: 0;
+}
+
+.social-icons i {
+  font-size: 24px;
+}
+
+.facebook-icon {
+  color: rgb(127, 175, 252);
+}
+
+.twitter-icon {
+  color: skyblue;
+}
+
+.instagram-icon {
+  color: purple;
+}
+
+.linkedin-icon {
+  color: rgb(219, 219, 220);
 }

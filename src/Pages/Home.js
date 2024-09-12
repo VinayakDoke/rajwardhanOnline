@@ -11,8 +11,11 @@ function Home () {
       <Header />
       <br />
       <UpComingCourse />
+      <br />
       <VideoSection />
+      <br />
       <CardSection />
+      <br />
       <Footer/>
     </>
   )
