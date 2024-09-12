@@ -7,7 +7,7 @@ function VideoSection () {
   return (
     <>
       <Container>
-        <Row>
+        <Row  data-aos="fade-left">
           <Col xs={12} md={6} className='parent-container'>
             <div className='custom-player'>
               <ReactPlayer
@@ -30,7 +30,7 @@ function VideoSection () {
             </div>
           </Col>
         </Row>
-        <Row>
+        <Row  data-aos="fade-right">
           {/* Gem Demo - Hidden on xs, visible on md and larger */}
           <Col
             xs={12}

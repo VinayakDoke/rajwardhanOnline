@@ -7,13 +7,13 @@ function CardSection () {
     <>
       <Container>
         <Row>
-          <Col className='parent-container' xs={12} md={4}>
+          <Col className='parent-container' xs={12} md={4} data-aos="fade-left">
             <MyCard />
           </Col>
-          <Col className='parent-container' xs={12} md={4}>
+          <Col className='parent-container' xs={12} md={4} data-aos="fade-up">
             <MyCard />
           </Col>
-          <Col className='parent-container' xs={12} md={4}>
+          <Col className='parent-container' xs={12} md={4} data-aos="fade-right">
             <MyCard />
           </Col>
         </Row>
