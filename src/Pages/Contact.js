@@ -16,7 +16,7 @@ function Contact () {
       <Header />
       <div className='contact-page parent-container'>
         <div className='contact-page-image-text'>
-          <b>Contact Us</b>
+          Contact Us
         </div>
       </div>
       <Container>

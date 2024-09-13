@@ -97,14 +97,17 @@ function ContactForm () {
                         className='text-danger'
                       />
                     </Form.Group>
-
+                   
                     <Button
                       variant='success'
                       type='submit'
                       disabled={isSubmitting}
+                     className='m-4'
+                     style={{paddingRight:"40px",paddingLeft:"40px"}}
                     >
-                      Submit
+                      Send Message
                     </Button>
+                  
                   </Form>
                 )}
               </Formik>

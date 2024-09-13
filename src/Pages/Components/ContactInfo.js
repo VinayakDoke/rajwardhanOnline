@@ -15,12 +15,34 @@ function ContactInfo () {
         <div>
           <div className='contact-page-header'> Email Us</div>
 
-          <p className='contact-page-body'>vinayakdoke934@gmail.com</p>
+          <p className='contact-page-body'>
+          <a
+            href='mailto:vinayakdoke934@gmail.com'
+            style={{ textDecoration: 'none', color: 'black' }}
+          >
+            <i className='bi bi-envelope '  style={{ marginRight: '10px' }}></i>
+            vinayakdoke934@gmail.com
+          </a>
+          </p>
         </div>
         <div>
           <div className='contact-page-header'> Call Us</div>
 
-          <p className='contact-page-body'>8788584847</p>
+          {/* <p className='contact-page-body'>
+            8788584847</p> */}
+
+          <p className='contact-page-body'>
+            <a
+              href='tel:+918788584847'
+              style={{ textDecoration: 'none', color: 'black' }}
+            >
+              <i
+                className='bi bi-telephone'
+                style={{ marginRight: '10px' }}
+              ></i>
+              +91 8788584847
+            </a>
+          </p>
         </div>
         <div className='social-icons-contact-page'>
           <a

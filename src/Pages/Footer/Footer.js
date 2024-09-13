@@ -172,6 +172,18 @@ function Footer () {
               <h3 className='footer-card-header'>Quick Links</h3>
               <div className='footer-card-text'>
                 <Link to='/' className='footer-card-text'>
+                  GEM
+                </Link>
+              </div>
+              <div className='footer-card-text'>
+                <Link to='/' className='footer-card-text'>
+                  TENDER
+                </Link>
+              </div>
+             
+             
+              <div className='footer-card-text'>
+                <Link to='/' className='footer-card-text'>
                   Terms of Service
                 </Link>
               </div>
